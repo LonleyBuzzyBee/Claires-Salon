@@ -15,6 +15,9 @@
   @Html.TextBoxFor(model => model.StyleTouchup)
   @Html.LabelFor(model => model.CostOfTouchup)
   @Html.TextBoxFor(model => model.CostOfTouchup)
+  @Html.LabelFor(model=> model.Stylist)
+  @Html.DropDownList("StylistId")
+  
   <input type="submit" value="Add new client"/>
 }
 <p>@Html.ActionLink("Show all clients", "Index")</p>

@@ -19,16 +19,16 @@
 -- Table structure for table `clients`
 --
 
-DROP TABLE IF EXISTS `clients`;
+DROP TABLE IF EXISTS `client`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `clients` (
-  `ClientId` int NOT NULL AUTO_INCREMENT,
+  `clientId` int NOT NULL AUTO_INCREMENT,
   `Hairstyle` varchar(255) DEFAULT NULL,
   `Name` varchar(255) DEFAULT NULL,
   `StyleTouchup` varchar(255) DEFAULT NULL,
   `CostOfTouchup` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`ClientId`)
+  PRIMARY KEY (`clientid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 

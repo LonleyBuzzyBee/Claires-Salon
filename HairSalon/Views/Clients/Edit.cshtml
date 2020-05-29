@@ -18,7 +18,12 @@
   @Html.EditorFor(model => model.StyleTouchup)
   @Html.LabelFor(model => model.CostOfTouchup)
   @Html.EditorFor(model => model.CostOfTouchup)
+
+  @Html.LabelFor(model => model.Stylist)
+  @Html.DropDownList("StylistId")
+
   <input type="submit" value = "Save"/>
 }
 
+<p>@Html.ActionLink("Back to list", "Index")</p>
 <p>@Html.ActionLink("Home", "Index", "Home")</p>
