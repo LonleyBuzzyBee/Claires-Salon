@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkeCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace HairSalon.Models
 {
