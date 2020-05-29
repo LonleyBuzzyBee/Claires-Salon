@@ -1,0 +1,2 @@
+SHOW DATABASES;
+USE mai_cook;
