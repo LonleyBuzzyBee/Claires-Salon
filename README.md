@@ -23,9 +23,6 @@ _This website was created to help Claire's cutomers choose a stylist, and view d
 |ALTER TABLE Stylists ADD StylistId INT NOT NULL AUTO_INCREMENT PRIMARY KEY| gives stylist a primary key stylist id|
 
 
---  CREATE TABLE Stylists (Name VARCHAR (255));
--- ALTER TABLE clients ADD ClientId INT NOT NULL AUTO_INCREMENT, StylistId INT NOT NULL AUTO_INCREMENT, PRIMARY KEY(`ClientId`)); 
---  ALTER TABLE Stylists ADD StylistId INT NOT NULL AUTO_INCREMENT PRIMARY KEY; 
 
 ## Setup/Installation Requirements
 
