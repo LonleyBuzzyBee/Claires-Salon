@@ -16,7 +16,16 @@ _This website was created to help Claire's cutomers choose a stylist, and view d
 |---|---|
 |SHOW DATABASE; |Shows databases available|
 |CREATE DATABASE first_last;|creates database/schema |
-|CREATE TABLE |   |
+|CREATE TABLE clients (Name VARCHAR (255), HairStyle VARCHAR (255), StyleTouchup VARCHAR (255),CostOfTouchup INT); | Creates a table for clients with properties name, hairstyle,styletouchup,costoftouchup|
+|ALTER TABLE clients ADD ClientId INT NOT NULL AUTO_INCREMENT PRIMARY KEY; |Adds ClientId and makes primary key|
+|ALTER TABLE Clients ADD StylistId INT NOT NULL;|puts StylistId as also a property for client|
+|CREATE TABLE Stylists (Name VARCHAR (255));|Creates a stylist table|
+|ALTER TABLE Stylists ADD StylistId INT NOT NULL AUTO_INCREMENT PRIMARY KEY| gives stylist a primary key stylist id|
+
+
+--  CREATE TABLE Stylists (Name VARCHAR (255));
+-- ALTER TABLE clients ADD ClientId INT NOT NULL AUTO_INCREMENT, StylistId INT NOT NULL AUTO_INCREMENT, PRIMARY KEY(`ClientId`)); 
+--  ALTER TABLE Stylists ADD StylistId INT NOT NULL AUTO_INCREMENT PRIMARY KEY; 
 
 ## Setup/Installation Requirements
 
